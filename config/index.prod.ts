@@ -1,5 +1,5 @@
 const Config = {
-  DEFAULT_LANGUAGE: 'da',
+  DEFAULT_LANGUAGE: 'en',
   ENV: 'PROD',
 }
 
