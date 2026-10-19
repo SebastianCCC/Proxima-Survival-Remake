@@ -1,6 +1,6 @@
 const Config = {
-  DEFAULT_LANGUAGE: "da",
-  ENV: "DEV",
-};
+  DEFAULT_LANGUAGE: 'da',
+  ENV: 'DEV',
+}
 
-export { Config };
+export { Config }

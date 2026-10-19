@@ -23,8 +23,8 @@
     "noFallthroughCasesInSwitch": true,
 
     "paths": {
-      "@/*": ["./*"],
-    },
+      "@/*": ["./*"]
+    }
   },
-  "include": ["**/*"],
+  "include": ["**/*"]
 }
