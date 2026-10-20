@@ -1,0 +1,10 @@
+.cards_container {
+  transform: rotate(-17deg);
+}
+
+.cards_inner_container {
+  position: relative;
+  top: -200px;
+  display: flex;
+  gap: 26px;
+}

@@ -1,11 +1,9 @@
-import { useTranslation } from 'react-i18next'
+import { Header } from '@/components/layouts/header'
 
 function App() {
-  const { t } = useTranslation()
-
   return (
     <>
-      <h1>{t('header.hero.title')}</h1>
+      <Header />
     </>
   )
 }

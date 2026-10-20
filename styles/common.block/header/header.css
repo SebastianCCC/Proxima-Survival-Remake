@@ -1,0 +1,43 @@
+header {
+  height: 843px;
+  background-color: var(--color-violet);
+  position: relative;
+  overflow: hidden;
+}
+
+.header_container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  color: var(--color-white);
+
+  z-index: 10;
+}
+
+.header_title {
+  font-family: var(--font-caesar);
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 40px;
+}
+
+.header_title_deck {
+  font-family: var(--font-inter);
+  font-weight: 200;
+  font-style: normal;
+
+  font-size: 21px;
+}
+
+.header_backdrop {
+  background-color: var(--color-violet);
+  opacity: 0.6;
+  position: absolute;
+  inset: 0;
+}
