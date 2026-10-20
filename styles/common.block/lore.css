@@ -1,0 +1,82 @@
+#imageDefault {
+    height: 25%;
+    width: 25%;
+}
+
+#boxDefault {
+    height: 100%;
+    width: 100%;
+    min-height: 550px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10%;
+}
+
+#menuDefault {
+    flex-direction: column;
+    color: white;
+    width: 30%;
+}
+
+#titleDefault {
+  font-family: var(--font-caesar);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110%;
+}
+
+#contentDefault {
+    height: 100%;
+    width: 100%;
+      font-size: 100%;
+}
+
+.loreTitle {
+    text-align: center;
+}
+
+.build {
+    background-color: var(--color-beige);
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+
+.buildMenu {
+
+}
+.buildImage {
+    
+}
+
+.explore {
+    background-color: var(--color-dark-gray);
+}
+
+.exploreMenu {
+
+}
+
+.exploreImage {
+    
+}
+.xCorp {
+    background-color: var(--color-beige);
+    display: flex;
+    flex-direction: row-reverse !important;
+    position: relative;
+}
+
+.xCorpMenu {
+    
+}
+
+.xCorpImage {
+    height: 100% !important;
+    width: auto !important;
+    position: absolute;
+    padding: 0% !important;
+    left: 0px;
+}

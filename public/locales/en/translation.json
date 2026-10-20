@@ -5,6 +5,20 @@
       "title_deck": "- Explore the lore of a century"
     }
   },
-
+  "lore": {
+    "title":"Game lore",
+    "build": {
+      "title": "Build a civilisation",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
+    "explore": {
+      "title": "Explore The World Of Aliens",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+      "xcorp": {
+      "title": "X-Corp is seeking volunteers",
+      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
   "continue-on-next-line-remove-me": {}
 }
