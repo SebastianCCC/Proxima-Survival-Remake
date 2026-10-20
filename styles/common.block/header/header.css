@@ -1,0 +1,31 @@
+header {
+  height: 843px;
+  background-color: var(--color-violet);
+}
+
+.header_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  color: var(--color-white);
+}
+
+.header_title {
+  font-family: var(--font-caesar);
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 40px;
+}
+
+.header_title_deck {
+  font-family: var(--font-inter);
+  font-weight: 200;
+  font-style: normal;
+
+  font-size: 21px;
+}
