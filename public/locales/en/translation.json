@@ -4,6 +4,26 @@
       "title": "Proxima Survival"
     }
   },
+  
+    "footer": {
+    "community": {
+      "title": "Community",
+      "help": "Find help, communicate and follow our news channels",
+      "itch": "Available only on itch - Get it now!"
+    },
+    "brand": {
+      "tagline": "· Explore the lore of a century",
+      "copyright": "© 2026 NullZone Studios & Seechris. All rights reserved."
+    },
+    "contact": {
+      "label": "For business inquiries and support, contact us at"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
 
   "continue-on-next-line-remove-me": {}
 }

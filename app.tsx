@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Footer } from '@/components/layouts/footer'
 
 function App() {
   const { t } = useTranslation()
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <h1>{t('header.hero.title')}</h1>
+      <Footer />
     </>
   )
 }
