@@ -5,5 +5,12 @@
     }
   },
 
+  "about": {
+    "subtitle": "Proxima Survival",
+    "title": "About our game",
+    "intro": "Proxima Survival 3D is a roguelite adventure set on the hostile alien planet Proxima Vita. After a failed landing, players must explore a dangerous world filled with hostile creatures, mysterious locations and valuable resources. Every expedition brings new challenges, encouraging players to adapt, grow stronger and uncover more of the planet’s secrets.",
+    "journey": "As you venture further into the wilderness, you’ll rescue stranded survivors and bring them back to your settlement, helping it grow and thrive. By combining exploration, combat, resource gathering and progression, Proxima Survival 3D delivers a sci-fi fantasy experience where every journey contributes to both your survival and the future of your community on Proxima Vita."
+  },
+
   "continue-on-next-line-remove-me": {}
 }
