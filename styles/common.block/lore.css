@@ -63,7 +63,7 @@
     
 }
 .xCorp {
-    background-color: var(--color-beige);
+    background-color: black;
     display: flex;
     flex-direction: row-reverse !important;
     position: relative;

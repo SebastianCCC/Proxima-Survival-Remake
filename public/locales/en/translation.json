@@ -7,17 +7,17 @@
   },
   "lore": {
     "title":"Game lore",
-    "build": {
-      "title": "Build a civilisation",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },    
+          "xcorp": {
+      "title": "X-Corp is seeking volunteers",
+      "content":"X-Corp is expanding, and are setting sight on the proxima system. will you become a pioneer and help colonize the universe?"
+    },
     "explore": {
       "title": "Explore The World Of Aliens",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "content":"After violently crash landing on proxima vita, you find yourself in an unfamiliar world. Do your best to struggle against the elements, and survive. and hopefully youll find your missing sister"
     },
-      "xcorp": {
-      "title": "X-Corp is seeking volunteers",
-      "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "build": {
+      "title": "Build a civilisation",
+      "content":"You are not alone. Find other survivors, team up, and help build civilisation on proxima vita. And play as 7 unique characters"
     }
   },
   "continue-on-next-line-remove-me": {}
