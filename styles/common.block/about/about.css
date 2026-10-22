@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+.about {
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 2.5rem;
+  background-color: #ffffff;
+  color: #111111;
+  text-align: center;
+}
+
+.about__header,
+.about__content {
+  position: relative;
+}
+
+.about__header {
+  margin-bottom: 5rem;
+}
+
+.about__decoration {
+  position: absolute;
+  pointer-events: none;
+}
+
+.about__decoration--top-left {
+  top: 3.75rem;
+  left: 0;
+  width: 66px;
+}
+
+.about__decoration--top-right {
+  top: 9.5rem;
+  right: 3.25rem;
+  width: 192px;
+}
+
+.about__decoration--bottom-left {
+  bottom: 0;
+  left: 0;
+  width: 62px;
+}
+
+.about__decoration--bottom-right {
+  bottom: 0;
+  right: 7.75rem;
+  width: 92px;
+}
+
+.about__subtitle {
+  font-family: 'Caesar Dressing', sans-serif;
+  font-size: 0.875rem;
+}
+
+.about__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  max-width: 52rem;
+  margin: 0 auto;
+}
+
+.about__text {
+  max-width: 30rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.about__text--left {
+  align-self: flex-start;
+}
+
+.about__text--right {
+  align-self: flex-end;
+}
+
+@media (max-width: 48rem) {
+  .about {
+    padding: 4rem 1rem;
+  }
+
+  .about__content {
+    gap: 2.5rem;
+  }
+
+  .about__text--left,
+  .about__text--right {
+    align-self: center;
+  }
+
+  .about__decoration {
+    display: none;
+  }
+}
