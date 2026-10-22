@@ -39,7 +39,7 @@
 }
 
 .build {
-    background-color: var(--color-beige);
+    background-color: var(--color-black);
     display: flex;
     flex-direction: row-reverse !important;
 }
@@ -52,7 +52,7 @@
 }
 
 .explore {
-    background-color: var(--color-dark-gray);
+    background-color: var(--color-beige);
 }
 
 .exploreMenu {
@@ -63,7 +63,7 @@
     
 }
 .xCorp {
-    background-color: black;
+    background-color: var(--color-black);
     display: flex;
     flex-direction: row-reverse !important;
     position: relative;
