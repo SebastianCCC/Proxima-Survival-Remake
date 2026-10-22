@@ -1,0 +1,205 @@
+/* Footer Stylesheet */
+:root {
+  --footer-background: #1f0b3a;
+  --footer-text: #ffffff;
+  --gold: #6e5f2b;
+  --diamond-core: #7a2fa8;
+  --diamond-edge: #4a1a6e;
+}
+
+.community {
+  text-align: center;
+  padding: 80px 20px 70px; 
+  color: #111;
+}
+.community h2 {
+  font-family: "Caesar Dressing", cursive;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+}
+.community p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+/* Community Links */
+.community .link {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #111;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.community .link:last-child { margin-bottom: 0; }
+.community .link:hover { opacity: 0.7; color: #6e5f2b; }
+.community .link:focus-visible { outline: 2px solid #111; outline-offset: 4px; }
+
+/*purple box with a gold line on top*/
+.site-footer {
+  position: relative;
+  background: var(--footer-background);
+  color: var(--footer-text);
+  border-top: 4px solid var(--gold);
+}
+
+/* Diamond */
+.site-footer::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: radial-gradient(circle, var(--diamond-core) 0%, var(--diamond-edge) 100%);
+  transition: filter 0.5s ease;
+  z-index: 1;
+}
+
+/* Gold border */
+.site-footer::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 3px solid var(--gold);
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Glow only the diamond */
+.site-footer:hover::before {
+  filter: brightness(1.5) drop-shadow(0 0 8px rgb(149, 0, 255));
+}
+
+/* .site-footer:hover::before {
+  background: radial-gradient(circle, #ff0000 0%, #4a1a6e 100%);
+} */
+
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 32px 44px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Footer Left Section */
+.footer-left .brand {
+  font-family: "Caesar Dressing", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+.footer-left .tagline {
+  font-size: 8px;
+  margin: 8px 0 20px;
+  opacity: 0.9;
+}
+.footer-left .copyright {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* Footer Center Section */
+.footer-center { text-align: center; }
+.footer-center .company {
+  font-size: 13px;
+  font-weight: 600;
+}
+.footer-center .cvr {
+  font-size: 11px;
+  margin: 6px 0 18px;
+}
+.footer-center .contact-label {
+  font-size: 8px;
+  margin-bottom: 4px;
+}
+.footer-center a {
+  font-size: 11px;
+  color: inherit;
+  text-decoration: none;
+}
+.footer-center a:hover { text-decoration: underline; }
+
+/* Footer Right Section */
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding-left: 0.4em; 
+}
+.socials {
+  display: flex;
+  gap: 14px;
+}
+.socials a {
+  color: #fff;
+  display: inline-flex;
+  transition: opacity 0.15s;
+}
+.socials a:hover { opacity: 0.7; color: #6e5f2b; }
+.socials a:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.socials svg { width: 18px; height: 18px; fill: currentColor; }
+
+.studio-logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.studio-logo .name {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+}
+.studio-logo .sub {
+  font-family: "Roboto Mono", monospace;
+  font-size: 9px;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  padding-left: 0.4em; 
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+
+/* Responsive Design */
+.footer-left img, .studio-logo img { max-width: 100%; display: block; } 
+
+@media (max-width: 720px){
+  .footer-inner {
+    padding: 40px 20px 44px; 
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+  }
+}
+
+.community p {
+  max-width: 26ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-left .copyright {
+  max-width: 24ch;
+}
