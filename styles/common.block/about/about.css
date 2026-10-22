@@ -2,11 +2,40 @@
 
 .about {
   position: relative;
-  overflow: hidden;
   padding: 7rem 2.5rem;
   background-color: #ffffff;
   color: #111111;
   text-align: center;
+  border-top: 4px solid var(--color-gold);
+}
+
+/* Diamond */
+.about::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: radial-gradient(circle, var(--diamond-core) 0%, var(--diamond-edge) 100%);
+  transition: filter 0.5s ease;
+  z-index: 15;
+}
+
+/* Gold border */
+.about::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 3px solid var(--color-gold);
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 20;
 }
 
 .about__header,
