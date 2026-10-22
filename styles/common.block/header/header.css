@@ -28,7 +28,6 @@ header {
 }
 
 .header_title_deck {
-  font-family: var(--font-inter);
   font-weight: 200;
   font-style: normal;
 

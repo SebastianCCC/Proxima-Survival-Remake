@@ -14,13 +14,15 @@
   --color-black: #000000;
   --color-beige: #ba9367;
   --color-dark-gray: #323131;
+  --diamond-core: #7a2fa8;
+  --diamond-edge: #4a1a6e;
 
   --font-caesar: 'Caesar Dressing', sans-serif;
   --font-inter: 'Inter', sans-serif;
 }
 
-body {
-  /*background-color: var(--color-violet);*/
+* {
+  font-family: var(--font-inter);
 }
 
 *,
@@ -414,28 +416,4 @@ input:where([type='button'], [type='reset'], [type='submit']),
 
 [hidden]:where(:not([hidden='until-found'])) {
   display: none !important;
-}
-
-
-
-
-body {
-  font-family: 'Inter', system-ui, sans-serif;
-  background: #eff7ff;
-}
-
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.app {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.app main {
-  flex: 1;
 }
