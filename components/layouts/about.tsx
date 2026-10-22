@@ -17,10 +17,10 @@ function About() {
       <img className='about__decoration about__decoration--bottom-left' src={creatureBottomLeft} alt='' />
       <img className='about__decoration about__decoration--bottom-right' src={creatureBottomRight} alt='' />
 
-      <header className='about__header'>
+      <dev className='about__header'>
         <p className='about__subtitle'>{t('about.subtitle')}</p>
         <h2 className='about__title'>{t('about.title')}</h2>
-      </header>
+      </dev>
 
       <div className='about__content'>
         <p className='about__text about__text--left'>{t('about.intro')}</p>
