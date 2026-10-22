@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <>
-      <section className='community'>
+      <section id='community' className='community'>
         <h2>{t('footer.community.title')}</h2>
         <p>{t('footer.community.help')}</p>
         <a href='https://discord.com/invite/ahRjRQ4SaD' className='link'>

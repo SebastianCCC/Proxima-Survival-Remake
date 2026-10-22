@@ -4,7 +4,7 @@ import '@/styles/common.block/lore.css'
 const GameLore = () => {
   const { t } = useTranslation()
   return (
-    <section>
+    <section id='lore'>
       <div className='xCorp' id='boxDefault'>
         <ul className='xCorpMenu' id='menuDefault'>
           <li className='xCorpTitle' id='titleDefault'>
