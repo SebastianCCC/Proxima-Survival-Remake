@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
 .about {
   position: relative;
   overflow: hidden;
@@ -9,14 +11,13 @@
 
 .about__header,
 .about__content {
-  position: relative; /* keeps the text above the decorations */
+  position: relative;
 }
 
 .about__header {
   margin-bottom: 5rem;
 }
 
-/* The drawings are pinned to the section's edges, so they stay in the corners at any width. */
 .about__decoration {
   position: absolute;
   pointer-events: none;
@@ -47,6 +48,7 @@
 }
 
 .about__subtitle {
+  font-family: 'Caesar Dressing', sans-serif;
   font-size: 0.875rem;
 }
 
@@ -79,7 +81,6 @@
   align-self: flex-end;
 }
 
-/* On narrow screens the zig-zag has no room, so both paragraphs stack in the middle. */
 @media (max-width: 48rem) {
   .about {
     padding: 4rem 1rem;
@@ -94,7 +95,6 @@
     align-self: center;
   }
 
-  /* There is no empty space beside the text on a phone, so the drawings would cover it. */
   .about__decoration {
     display: none;
   }
