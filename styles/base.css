@@ -21,6 +21,10 @@
   --font-inter: 'Inter', sans-serif;
 }
 
+body {
+  background-color: var(--color-violet);
+}
+
 * {
   font-family: var(--font-inter);
 }
