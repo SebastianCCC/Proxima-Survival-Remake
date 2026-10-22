@@ -5,9 +5,8 @@
       "title_deck": "- Explore the lore of a century"
     }
   },
-<<<<<<< HEAD
-  
-    "footer": {
+
+  "footer": {
     "community": {
       "title": "Community",
       "help": "Find help, communicate and follow our news channels",
@@ -24,22 +23,22 @@
       "facebook": "Facebook",
       "instagram": "Instagram",
       "youtube": "YouTube"
-=======
+    }
+  },
+
   "lore": {
-    "title":"Game lore",
-          "xcorp": {
+    "title": "Game lore",
+    "xcorp": {
       "title": "X-Corp is seeking volunteers",
-      "content":"X-Corp is expanding, and are setting sight on the proxima system. will you become a pioneer and help colonize the universe?"
+      "content": "X-Corp is expanding, and are setting sight on the proxima system. will you become a pioneer and help colonize the universe?"
     },
     "explore": {
       "title": "Explore The World Of Aliens",
-      "content":"After violently crash landing on proxima vita, you find yourself in an unfamiliar world. Do your best to struggle against the elements, and survive. and hopefully youll find your missing sister"
+      "content": "After violently crash landing on proxima vita, you find yourself in an unfamiliar world. Do your best to struggle against the elements, and survive. and hopefully youll find your missing sister"
     },
     "build": {
       "title": "Build a civilisation",
-      "content":"You are not alone. Find other survivors, team up, and help build civilisation on proxima vita. And play as 7 unique characters"
->>>>>>> johan
+      "content": "You are not alone. Find other survivors, team up, and help build civilisation on proxima vita. And play as 7 unique characters"
     }
-  },
-  "continue-on-next-line-remove-me": {}
+  }
 }
